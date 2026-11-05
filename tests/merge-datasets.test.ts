@@ -10,7 +10,7 @@ const okRow = (text: string, group = 'G2', reviewed = 'no') =>
 
 describe('mergeDatasets', () => {
   it('merges two valid files into one valid file', () => {
-    const a = { name: 'a.csv', csv: HEADER + scamRow('You won a big prize, pay the fee to claim it') };
+    const a = { name: 'a.csv', csv: HEADER + scamRow('You won a big prize, pay the fee to claim it.') };
     const b = { name: 'b.csv', csv: HEADER + okRow('Your order will arrive between 2 and 6 PM today') };
     const r = mergeDatasets([a, b]);
     expect(r.errors).toEqual([]);
