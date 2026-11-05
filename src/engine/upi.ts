@@ -181,6 +181,7 @@ const RECEIVE_TERMS = [
   'पैसे आ जाएंगे',
   'वापस मिलेंगे',
   'पैसा मिलेगा',
+  '!',
 ];
 
 // Words suggesting the sender claims to be an organisation or authority.

@@ -1,0 +1,61 @@
+ScamSaathi import report, 2026-11-05
+
+Your own files: dataset_seed_2026-11-03.csv
+
+=== sentinel ===
+Rows read: 14000 (0 skipped: empty text or unreadable label)
+Cleaning replaced: 2256 links, 0 emails, 0 UPI IDs, 0 phone numbers, 909 long numbers
+Dropped: 0 shorter than 15 characters, 0 longer than 600
+Exact duplicates removed: 180. Messages with conflicting labels removed: 0
+Distinct templates found: 979 (from 13820 messages)
+  Biggest templates: 177 messages like "NCB has intercepted a package registered to your Voter ID containing n..."
+  Biggest templates: 173 messages like "You are under digital custody as ordered by the Supreme Court cybercri..."
+  Biggest templates: 166 messages like "SBI Fraud Alert: A Rs 40,000 transaction on your account ending 3421 i..."
+After keeping at most 3 per template: 1829
+After caps (scam 1500, English legitimate 1500, Hindi/Hinglish never cut): 1829
+Final: 1829 rows. Scam 1331, legitimate 498, hard negatives 394
+Languages: English 1829, Hinglish 0, Hindi 0
+Scam types (guessed from keywords, so rough): kyc 31, other 477, romance 6, digital_arrest 660, lottery 36, delivery 6, investment 72, job_fee 33, refund 7, loan 3
+Warning: no Hindi or Hinglish rows found. This source adds English only.
+
+=== bolewara ===
+Rows read: 3787 (0 skipped: empty text or unreadable label)
+Cleaning replaced: 158 links, 6 emails, 5 UPI IDs, 365 phone numbers, 49 long numbers
+Dropped: 0 shorter than 15 characters, 1 longer than 600
+Exact duplicates removed: 244. Messages with conflicting labels removed: 0
+Distinct templates found: 3411 (from 3542 messages)
+  Biggest templates: 12 messages like "PRIVATE! Your 2003 Account Statement for 07808 XXXXXX shows 800 un-red..."
+  Biggest templates: 7 messages like "URGENT! We are trying to contact U. Todays draw shows that you have wo..."
+  Biggest templates: 5 messages like "URGENT! Your mobile No 077xxx WON a £2,000 Bonus Caller Prize on 02/06..."
+After keeping at most 3 per template: 3525
+After caps (scam 700, English legitimate 600, Hindi/Hinglish never cut): 1237
+Final: 1237 rows. Scam 620, legitimate 617, hard negatives 12
+Languages: English 1205, Hinglish 32, Hindi 0
+Scam types (guessed from keywords, so rough): lottery 89, other 466, refund 7, loan 3, kyc 5, romance 25, delivery 17, investment 4, job_fee 2, digital_arrest 2
+
+=== Merge: FULL ===
+Rows: 3138. Duplicates dropped: 0. Conflicts: 0
+Rows checked: 3138 (your own 72, public 3066)
+Your own rows, scam: 36 of 1000 (4%)    legitimate: 36 of 1000 (4%)
+Your own hard negatives: 27 of 300 (9%)
+  en        scam 12 of 350 (3%), legitimate 12 of 350 (3%)
+  hinglish  scam 12 of 450 (3%), legitimate 12 of 450 (3%)
+  hi        scam 12 of 200 (6%), legitimate 12 of 200 (6%)
+Public rows (training support only): scam 1951, legitimate 1115
+Sources: synthetic 72, public 3066
+Reviewed by a person: 0 of 3138
+Groups (distinct templates): 2142
+
+=== Merge: PUBLISHABLE ===
+Rows: 1309. Duplicates dropped: 0. Conflicts: 0
+Rows checked: 1309 (your own 72, public 1237)
+Your own rows, scam: 36 of 1000 (4%)    legitimate: 36 of 1000 (4%)
+Your own hard negatives: 27 of 300 (9%)
+  en        scam 12 of 350 (3%), legitimate 12 of 350 (3%)
+  hinglish  scam 12 of 450 (3%), legitimate 12 of 450 (3%)
+  hi        scam 12 of 200 (6%), legitimate 12 of 200 (6%)
+Public rows (training support only): scam 620, legitimate 617
+Sources: synthetic 72, public 1237
+Reviewed by a person: 0 of 1309
+Groups (distinct templates): 1163
+

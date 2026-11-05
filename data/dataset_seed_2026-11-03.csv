@@ -1,0 +1,73 @@
+text,is_scam,scam_type,tactics,language,source,group_id,reviewed,hard_negative
+"Dear customer, your SBI account will be BLOCKED today. Update your KYC immediately to avoid suspension: [LINK]",1,kyc,urgency|authority|impersonation|fear_threat|credential_request,en,synthetic,S01,no,0
+"Dear customer, aapka SBI account aaj hi BLOCK ho jayega. Suspend hone se bachne ke liye abhi KYC update karein: [LINK]",1,kyc,urgency|authority|impersonation|fear_threat|credential_request,hinglish,synthetic,S01,no,0
+"प्रिय ग्राहक, आपका SBI खाता आज ही बंद हो जाएगा। बंद होने से बचने के लिए तुरंत KYC अपडेट करें: [LINK]",1,kyc,urgency|authority|impersonation|fear_threat|credential_request,hi,synthetic,S01,no,0
+"Your order refund of ₹4,999 is pending. Scan the attached QR code and enter your UPI PIN to receive the amount in your account.",1,refund,receive_trick|credential_request,en,synthetic,S02,no,0
+"Aapke order ka ₹4,999 ka refund pending hai. Paise paane ke liye attached QR code scan karein aur apna UPI PIN daalein.",1,refund,receive_trick|credential_request,hinglish,synthetic,S02,no,0
+"आपके ऑर्डर का ₹4,999 का रिफंड बाकी है। पैसे पाने के लिए QR कोड स्कैन करें और अपना UPI PIN डालें।",1,refund,receive_trick|credential_request,hi,synthetic,S02,no,0
+"Congratulations! You are selected for Work From Home Data Entry at Amazon. Salary ₹40,000 per month. Pay ₹1,500 registration fee within 24 hours to confirm your seat.",1,job_fee,fee_demand|urgency|too_good|impersonation,en,synthetic,S03,no,0
+"Badhai ho! Aapka Amazon mein Work From Home Data Entry ke liye selection ho gaya hai. Salary ₹40,000 mahina. Seat confirm karne ke liye 24 ghante mein ₹1,500 registration fee bhejein.",1,job_fee,fee_demand|urgency|too_good|impersonation,hinglish,synthetic,S03,no,0
+"बधाई हो! आपका अमेज़न में वर्क फ्रॉम होम डेटा एंट्री के लिए चयन हो गया है। वेतन ₹40,000 प्रति माह। सीट पक्की करने के लिए 24 घंटे में ₹1,500 पंजीकरण शुल्क भेजें।",1,job_fee,fee_demand|urgency|too_good|impersonation,hi,synthetic,S03,no,0
+"Congratulations! Your number has won ₹25,00,000 in the KBC Lucky Draw. To claim, call [PHONE] and pay the ₹5,000 processing fee.",1,lottery,too_good|fee_demand|impersonation,en,synthetic,S04,no,0
+"Mubarak ho! Aapke number ne KBC Lucky Draw mein ₹25,00,000 jeeta hai. Inaam paane ke liye [PHONE] par call karein aur ₹5,000 processing fee jama karein.",1,lottery,too_good|fee_demand|impersonation,hinglish,synthetic,S04,no,0
+"बधाई हो! आपके नंबर ने KBC लकी ड्रॉ में ₹25,00,000 जीते हैं। इनाम पाने के लिए [PHONE] पर कॉल करें और ₹5,000 प्रोसेसिंग शुल्क जमा करें।",1,lottery,too_good|fee_demand|impersonation,hi,synthetic,S04,no,0
+"Instant loan of ₹50,000 approved with no documents. Pay ₹999 processing fee to release the amount today. Install the app: [LINK]",1,loan,fee_demand|too_good|urgency,en,synthetic,S05,no,0
+"₹50,000 ka instant loan bina documents ke approved ho gaya hai. Aaj hi amount paane ke liye ₹999 processing fee bhejein. App install karein: [LINK]",1,loan,fee_demand|too_good|urgency,hinglish,synthetic,S05,no,0
+"₹50,000 का इंस्टेंट लोन बिना दस्तावेज़ के मंज़ूर हो गया है। आज ही राशि पाने के लिए ₹999 प्रोसेसिंग शुल्क भेजें। ऐप इंस्टॉल करें: [LINK]",1,loan,fee_demand|too_good|urgency,hi,synthetic,S05,no,0
+"This is Inspector Rao from the CBI. A parcel in your name contains illegal items. You are under digital arrest. Stay on this video call and do not tell anyone, or you will be arrested.",1,digital_arrest,authority|impersonation|fear_threat|secrecy,en,synthetic,S06,no,0
+"Main CBI se Inspector Rao bol raha hoon. Aapke naam ke parcel mein illegal saman mila hai. Aap digital arrest mein hain. Is video call par bane rahein aur kisi ko mat batayein, warna aapko arrest kar liya jayega.",1,digital_arrest,authority|impersonation|fear_threat|secrecy,hinglish,synthetic,S06,no,0
+"मैं CBI से इंस्पेक्टर राव बोल रहा हूँ। आपके नाम के पार्सल में अवैध सामान मिला है। आप डिजिटल अरेस्ट में हैं। इस वीडियो कॉल पर बने रहें और किसी को न बताएं, वरना आपको गिरफ्तार कर लिया जाएगा।",1,digital_arrest,authority|impersonation|fear_threat|secrecy,hi,synthetic,S06,no,0
+Your parcel is held at customs. Pay a delivery fee of ₹49 at [LINK] within 12 hours or it will be returned to the sender.,1,delivery,fee_demand|urgency|authority,en,synthetic,S07,no,0
+"Aapka parcel customs mein ruka hua hai. 12 ghante mein [LINK] par ₹49 delivery fee bharein, warna parcel sender ko wapas bhej diya jayega.",1,delivery,fee_demand|urgency|authority,hinglish,synthetic,S07,no,0
+"आपका पार्सल कस्टम में रुका हुआ है। 12 घंटे में [LINK] पर ₹49 डिलीवरी शुल्क भरें, वरना पार्सल भेजने वाले को वापस भेज दिया जाएगा।",1,delivery,fee_demand|urgency|authority,hi,synthetic,S07,no,0
+"Join our VIP trading group and earn a guaranteed 30% weekly profit. Only 5 slots left. Deposit ₹10,000 today and keep this offer private.",1,investment,too_good|urgency|secrecy,en,synthetic,S08,no,0
+"Hamare VIP trading group se judein aur har hafte guaranteed 30% profit kamayein. Sirf 5 slot bache hain. Aaj hi ₹10,000 deposit karein aur ye offer kisi ko na batayein.",1,investment,too_good|urgency|secrecy,hinglish,synthetic,S08,no,0
+"हमारे VIP ट्रेडिंग ग्रुप से जुड़ें और हर हफ्ते गारंटीड 30% मुनाफा कमाएं। सिर्फ 5 स्लॉट बचे हैं। आज ही ₹10,000 जमा करें और यह ऑफर किसी को न बताएं।",1,investment,too_good|urgency|secrecy,hi,synthetic,S08,no,0
+"Hi Dad, this is my new number. My phone broke. I need ₹15,000 urgently for a payment, please send it now. I will explain later, don't call.",1,other,impersonation|urgency|secrecy,en,synthetic,S09,no,0
+"Hi Papa, ye mera naya number hai. Phone toot gaya. Mujhe ek payment ke liye abhi ₹15,000 chahiye, jaldi bhej do. Baad mein bataunga, call mat karna.",1,other,impersonation|urgency|secrecy,hinglish,synthetic,S09,no,0
+"हेलो पापा, यह मेरा नया नंबर है। फोन टूट गया है। मुझे एक पेमेंट के लिए अभी ₹15,000 चाहिए, जल्दी भेज दो। बाद में बताऊँगा, कॉल मत करना।",1,other,impersonation|urgency|secrecy,hi,synthetic,S09,no,0
+"Dear consumer, your electricity connection will be disconnected tonight at 9:30 PM due to an unpaid bill. Call [PHONE] immediately to avoid disconnection.",1,other,urgency|fear_threat|authority|impersonation,en,synthetic,S10,no,0
+"Dear consumer, bill pending hone ki wajah se aaj raat 9:30 baje aapka bijli connection kat jayega. Turant [PHONE] par call karein.",1,other,urgency|fear_threat|authority|impersonation,hinglish,synthetic,S10,no,0
+"प्रिय उपभोक्ता, बिल बकाया होने के कारण आज रात 9:30 बजे आपका बिजली कनेक्शन काट दिया जाएगा। तुरंत [PHONE] पर कॉल करें।",1,other,urgency|fear_threat|authority|impersonation,hi,synthetic,S10,no,0
+"Hello, this is Amazon support. An OTP was sent to your phone by mistake. Please share it with me right now so we can cancel the order.",1,other,credential_request|impersonation|urgency,en,synthetic,S11,no,0
+"Hello, main Amazon support se bol raha hoon. Galti se aapke phone par ek OTP chala gaya hai. Order cancel karne ke liye please abhi mujhe wo OTP bata dijiye.",1,other,credential_request|impersonation|urgency,hinglish,synthetic,S11,no,0
+"नमस्ते, मैं अमेज़न सपोर्ट से बोल रहा हूँ। गलती से आपके फोन पर एक OTP चला गया है। ऑर्डर रद्द करने के लिए कृपया वह OTP अभी मुझे बता दीजिए।",1,other,credential_request|impersonation|urgency,hi,synthetic,S11,no,0
+"Income Tax Department: A refund of ₹15,230 has been approved for you. Verify your bank details at [LINK] to receive the amount.",1,refund,authority|impersonation|credential_request,en,synthetic,S12,no,0
+"Income Tax Department: Aapke liye ₹15,230 ka refund approve hua hai. Paise paane ke liye [LINK] par apni bank details verify karein.",1,refund,authority|impersonation|credential_request,hinglish,synthetic,S12,no,0
+"आयकर विभाग: आपके लिए ₹15,230 का रिफंड मंज़ूर हुआ है। राशि पाने के लिए [LINK] पर अपने बैंक विवरण सत्यापित करें।",1,refund,authority|impersonation|credential_request,hi,synthetic,S12,no,0
+"Rs.500.00 debited from A/c XX1234 on 03-11-26 via UPI to [NAME]. If this was not you, call the bank helpline number printed on your card.",0,none,,en,synthetic,B01,no,1
+"A/c XX1234 se 03-11-26 ko UPI se [NAME] ko Rs.500.00 debit hue. Agar ye aapne nahi kiya, to card par chhape bank helpline number par call karein.",0,none,,hinglish,synthetic,B01,no,1
+"खाता XX1234 से 03-11-26 को UPI द्वारा [NAME] को ₹500.00 डेबिट हुए। यदि यह आपने नहीं किया, तो कार्ड पर छपे बैंक हेल्पलाइन नंबर पर कॉल करें।",0,none,,hi,synthetic,B01,no,1
+482913 is your OTP to log in to the app. Do not share it with anyone. It is valid for 10 minutes.,0,none,,en,synthetic,B02,no,1
+482913 aapka app login OTP hai. Ise kisi ke saath share na karein. Ye 10 minute tak valid hai.,0,none,,hinglish,synthetic,B02,no,1
+482913 ऐप में लॉगिन के लिए आपका OTP है। इसे किसी के साथ साझा न करें। यह 10 मिनट तक मान्य है।,0,none,,hi,synthetic,B02,no,1
+"Dear customer, your KYC is due for renewal. Please visit your home branch with ID proof or update it in the official mobile app. No payment is required.",0,none,,en,synthetic,B03,no,1
+"Dear customer, aapki KYC renewal ke liye due hai. Kripya ID proof ke saath apni home branch jaayein ya official mobile app mein update karein. Koi payment nahi lagta.",0,none,,hinglish,synthetic,B03,no,1
+"प्रिय ग्राहक, आपकी KYC नवीनीकरण के लिए बाकी है। कृपया पहचान पत्र के साथ अपनी होम शाखा जाएं या आधिकारिक मोबाइल ऐप में अपडेट करें। किसी भुगतान की आवश्यकता नहीं है।",0,none,,hi,synthetic,B03,no,1
+"Your order #12345 will be delivered today between 2 PM and 6 PM. Delivery partner: [NAME], [PHONE]. You can track it in the app.",0,none,,en,synthetic,B04,no,1
+"Aapka order #12345 aaj dopahar 2 se shaam 6 baje ke beech deliver hoga. Delivery partner: [NAME], [PHONE]. App mein track kar sakte hain.",0,none,,hinglish,synthetic,B04,no,1
+"आपका ऑर्डर #12345 आज दोपहर 2 से शाम 6 बजे के बीच डिलीवर होगा। डिलीवरी पार्टनर: [NAME], [PHONE]। आप ऐप में ट्रैक कर सकते हैं।",0,none,,hi,synthetic,B04,no,1
+"Hi [NAME], this is HR at [COMPANY]. We reviewed your application for the Software Intern role. Please share your availability for an interview on Friday. We never charge any fee.",0,none,,en,synthetic,B05,no,1
+"Hi [NAME], main [COMPANY] ki HR team se hoon. Humne Software Intern role ke liye aapki application dekhi. Friday ko interview ke liye apni availability batayein. Hum kabhi koi fee nahi lete.",0,none,,hinglish,synthetic,B05,no,1
+"नमस्ते [NAME], मैं [COMPANY] की एचआर टीम से हूँ। हमने सॉफ्टवेयर इंटर्न पद के लिए आपका आवेदन देखा। शुक्रवार को इंटरव्यू के लिए अपनी उपलब्धता बताएं। हम कभी कोई शुल्क नहीं लेते।",0,none,,hi,synthetic,B05,no,1
+Reminder: Mid-semester exams begin on Monday. Hall tickets are available on the college portal. - Exam Cell,0,none,,en,synthetic,B06,no,0
+Reminder: Mid-semester exams Monday se shuru ho rahe hain. Hall ticket college portal par available hain. - Exam Cell,0,none,,hinglish,synthetic,B06,no,0
+सूचना: मध्य-सत्र परीक्षाएं सोमवार से शुरू हो रही हैं। प्रवेश पत्र कॉलेज पोर्टल पर उपलब्ध हैं। - परीक्षा प्रकोष्ठ,0,none,,hi,synthetic,B06,no,0
+"Mom, I will reach home by 8 tonight. Please keep dinner ready. Don't worry.",0,none,,en,synthetic,B07,no,0
+"Mummy, main aaj raat 8 baje tak ghar pahunch jaunga. Khana ready rakhna. Chinta mat karna.",0,none,,hinglish,synthetic,B07,no,0
+"मम्मी, मैं आज रात 8 बजे तक घर पहुँच जाऊँगा। खाना तैयार रखना। चिंता मत करना।",0,none,,hi,synthetic,B07,no,0
+Festive sale: up to 40% off on electronics at [STORE] this weekend. Terms apply. Reply STOP to opt out.,0,none,,en,synthetic,B08,no,0
+Festive sale: is weekend [STORE] par electronics par 40% tak ki chhoot. Sharten lagu. Band karne ke liye STOP likhein.,0,none,,hinglish,synthetic,B08,no,0
+त्योहार सेल: इस सप्ताहांत [STORE] पर इलेक्ट्रॉनिक्स पर 40% तक की छूट। शर्तें लागू। बंद करने के लिए STOP लिखें।,0,none,,hi,synthetic,B08,no,0
+"Your electricity bill of ₹1,240 for October has been generated. Due date: 15-11-26. Pay through the official app or at the office counter.",0,none,,en,synthetic,B09,no,1
+"Aapka October ka ₹1,240 ka bijli bill generate ho gaya hai. Last date: 15-11-26. Official app se ya office counter par bharein.",0,none,,hinglish,synthetic,B09,no,1
+"अक्टूबर का ₹1,240 का आपका बिजली बिल जारी हो गया है। अंतिम तिथि: 15-11-26। आधिकारिक ऐप से या कार्यालय काउंटर पर भुगतान करें।",0,none,,hi,synthetic,B09,no,1
+Your refund of ₹499 for order #12345 has been initiated. It will reflect in your original payment method in 5 to 7 working days.,0,none,,en,synthetic,B10,no,1
+Aapke order #12345 ka ₹499 ka refund initiate ho gaya hai. Ye 5 se 7 working days mein aapke original payment method mein dikhega.,0,none,,hinglish,synthetic,B10,no,1
+आपके ऑर्डर #12345 का ₹499 का रिफंड शुरू हो गया है। यह 5 से 7 कार्य दिवसों में आपके मूल भुगतान माध्यम में दिखाई देगा।,0,none,,hi,synthetic,B10,no,1
+"INR 45,000.00 credited to A/c XX5678 on 01-11-26. Avl Bal INR 52,310.45.",0,none,,en,synthetic,B11,no,1
+"A/c XX5678 mein 01-11-26 ko INR 45,000.00 credit hue. Avl Bal INR 52,310.45.",0,none,,hinglish,synthetic,B11,no,1
+"खाता XX5678 में 01-11-26 को INR 45,000.00 जमा हुए। उपलब्ध शेष INR 52,310.45।",0,none,,hi,synthetic,B11,no,1
+"Hey, can you send me ₹250 for yesterday's lunch? Thanks!",0,none,,en,synthetic,B12,no,1
+"Bhai, kal ke lunch ke ₹250 UPI kar dena, thanks!",0,none,,hinglish,synthetic,B12,no,1
+"यार, कल के लंच के ₹250 UPI कर देना, धन्यवाद!",0,none,,hi,synthetic,B12,no,1
